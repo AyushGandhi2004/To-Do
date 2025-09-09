@@ -52,7 +52,7 @@ function App() {
           <div className='w-[80%] p-5'>
               <TodoForm/>
           </div>
-          <div className='flex flex-wrap gap-y-3'>
+          <div className='flex flex-wrap gap-y-3 w-[70%]'>
             {
               todos.map((todo) => (
                 <div key={todo.id} className='w-full'>
